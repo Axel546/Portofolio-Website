@@ -1,7 +1,7 @@
 new fullpage('#fullpage', {
 	//options here
     autoScrolling:true,
-    sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+    sectionsColor: ['#68b0ab', '#8fc0a9', '#c8d5b9', '#faf3dd'],
     navigation: true,
     onLeave: (origin,destination,direction)=> {
         const section = destination.item;
