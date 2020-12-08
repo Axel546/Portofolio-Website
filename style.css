@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
-#title {
+p,h1 {
+    color: white;
+}
+
+#fullpage{
     text-align: center;
+}
+
+
+#header {
+    margin-top: -10%;
+}
+
+#text1 {
+    margin-top: 10%;
+}
+
+.sectitle {
+    margin-top: -20%;
+}
+
+#aboutMeText {
+    margin-top: 10%;
 }
