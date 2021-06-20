@@ -88,6 +88,12 @@ p,h1,h2 {
         font-size: 100%;
     }
 
+    #avatar img{
+        border-radius: 30%;
+        margin-top: 2%;
+        width: 150px;
+    }
+
     .sectitle {
         margin-top: 0%;
         font-size: 100%;
