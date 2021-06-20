@@ -48,6 +48,20 @@ p,h1,h2 {
     width: 600px;
 }
 
+@media only screen and (max-width: 600px)
+{
+    #group_photo img{
+        width: 450px;
+    }
+}
+
+.subtitle {
+    margin-top: 1%;
+    width: 76%;
+    margin-left: 12%;
+    font-weight: bold;
+}
+
 #skills {
     border-collapse: collapse;
     width: 70%;
@@ -77,43 +91,4 @@ p,h1,h2 {
 #stay {
     margin-bottom:10%;
 }
-
-@media only screen and (max-width: 600px)
-{
-    #group_photo img{
-        width: 350px;
-    }
-
-    #header{
-        font-size: 100%;
-    }
-
-    .sectitle {
-        margin-top: 0%;
-        font-size: 100%;
-    }
-
-    #aboutMeText {
-        margin-top: 2%;
-        width: 80%;
-        margin-left: 10%;
-        font-size: 100%;
-    }
-
-    #skills {
-        border-collapse: collapse;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 3%;
-    }
-}
-
-.subtitle {
-    margin-top: 1%;
-    width: 76%;
-    margin-left: 12%;
-    font-weight: bold;
-}
-
-
 
