@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
-p,h1 {
+p,h1,h2 {
     color: white;
 }
 
@@ -12,19 +13,107 @@ p,h1 {
     text-align: center;
 }
 
-
 #header {
     margin-top: -10%;
+    font-size: 150%;
+}
+
+#avatar img{
+    border-radius: 30%;
+    margin-top: 5%;
+    width: 250px;
 }
 
 #text1 {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .sectitle {
-    margin-top: -20%;
+    margin-top: 0%;
+    font-size: 200%;
 }
 
 #aboutMeText {
+    margin-top: 2%;
+    width: 76%;
+    margin-left: 12%;
+    font-size: 140%;
+}
+
+#group_photo img{
+    margin-top: 2%;
+    border-radius: 3%;
+    width: 600px;
+}
+
+#skills {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 10%;
 }
+
+#skills td, #skills th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+#skills tr:nth-child(even){background-color: #f2f2f2;}
+
+#skills tr:hover {background-color: #ddd;}
+  
+#skills th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+
+#stay {
+    margin-bottom:10%;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #group_photo img{
+        width: 350px;
+    }
+
+    #header{
+        font-size: 100%;
+    }
+
+    .sectitle {
+        margin-top: 0%;
+        font-size: 100%;
+    }
+
+    #aboutMeText {
+        margin-top: 2%;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 100%;
+    }
+
+    #skills {
+        border-collapse: collapse;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+}
+
+.subtitle {
+    margin-top: 1%;
+    width: 76%;
+    margin-left: 12%;
+    font-weight: bold;
+}
+
+
+
