@@ -78,7 +78,7 @@ p,h1,h2 {
     margin-bottom:10%;
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 400px)
 {
     #group_photo img{
         width: 350px;
